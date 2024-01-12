@@ -7,13 +7,13 @@ Based on LibGDX.
 ## Desired syntax
 
 ```java
-class MyExampleStory {
+class MyExampleStory implements Runnable {
 
     Subject sFloof = new Subject("floof", Color.Red);
     Subject sFlan = new Subject("flan", Color.Purple);
     
     @Override
-    void run() {
+    public void run() {
         Scene("example_scene", this::exampleScene, Assets.CORE, Assets.FOREST);
     }
 
