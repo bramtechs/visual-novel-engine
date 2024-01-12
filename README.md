@@ -1,6 +1,6 @@
 # Visual Novel Engine
 
-A work-in-progress visual novel engine engine proof-of-concept vaguely inspired by RenPy.
+A work-in-progress visual novel engine proof-of-concept, vaguely inspired by RenPy.
 
 Based on LibGDX.
 
