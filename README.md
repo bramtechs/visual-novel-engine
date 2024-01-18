@@ -32,7 +32,7 @@ class MyExampleStory implements Runnable {
         
         speak(sFloof, MyAssets.FLOOF_HAPPY, "Lets be friends and start the [wavy]Mushroom Association![/wavy]");
 
-        speak(sFlan, MyAssets.FLAN_FOCUSED, "Thats a great idea! I will start filling the paperwork right away.");
+        speak(sFlan, MyAssets.FLAN_FOCUSED, "Thats a great idea! I will start filling in the paperwork right away.");
         
         leave(sFloof);
         leave(sFlan);
