@@ -26,8 +26,8 @@ class MyExampleStory implements Runnable {
         Speak(sFlan, MyAssets.FLAN_EXCITED, "Did you say you like mushrooms! [pause=3] I am Flan and I also like mushrooms!");
         
         Speak(sFloof, MyAssets.FLOOF_HAPPY, "Lets be friends and start the [wavy]Mushroom Association![/wavy]");
-
-        Speak(sFlan, MyAssets.FLAN_FOCUSED, "Thats a great idea! I will start filling the paperwork right away.");
+        
+        Speak(sFlan, MyAssets.FLAN_FOCUSED, "Thats a great idea! I will start filling in the paperwork right away.");
         
         Leave(sFloof);
         Leave(sFlan);
